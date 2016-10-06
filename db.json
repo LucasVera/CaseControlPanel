@@ -1,0 +1,90 @@
+{
+  "orders": [
+    {
+      "caseId": "OT-0001",
+      "description": "CHASIS CAMION 4300 4X2 STD (DURASTAR)",
+      "baseType": "Externo",
+      "groupId": "SERVICIO",
+      "typeId": "NAVI-ESPECIALIZADO",
+      "priorityId": "",
+      "status": "Creado",
+	  "siteId": "ANT-AGU",
+	  "responsible": "10004697",
+	  "custAccount": "900298102"
+	},
+	{
+      "caseId": "OT-0002",
+      "description": "VOLQUETA 7600 6X4 14 M3",
+      "baseType": "Externo",
+      "groupId": "SERVICIO",
+      "typeId": "NAVI-PITS",
+      "priorityId": "MEDIA",
+      "status": "Cerrado",
+	  "siteId": "ATL-SOL",
+	  "responsible": "22534407",
+	  "custAccount": "900132333"
+	},
+	{
+      "caseId": "OT-0003",
+      "description": "GENERICO OTRAS",
+      "baseType": "Externo",
+      "groupId": "SERVICIO",
+      "typeId": "NAVI-LYP",
+      "priorityId": "",
+      "status": "En proceso",
+	  "siteId": "ANT-SIT",
+	  "responsible": "43220647",
+	  "custAccount": "860002523"
+	},
+	{
+      "caseId": "OT-0004",
+      "description": "GENERICO OTRAS",
+      "baseType": "Externo",
+      "groupId": "SERVICIO",
+      "typeId": "NAVI-LYP",
+      "priorityId": "",
+      "status": "En proceso",
+	  "siteId": "ANT-SIT",
+	  "responsible": "43220647",
+	  "custAccount": "860002523"
+	},
+	{
+      "caseId": "OT-0005",
+      "description": "GENERICO OTRAS",
+      "baseType": "Externo",
+      "groupId": "SERVICIO",
+      "typeId": "NAVI-LYP",
+      "priorityId": "",
+      "status": "En proceso",
+	  "siteId": "ANT-SIT",
+	  "responsible": "43220647",
+	  "custAccount": "860002523"
+	}
+],
+  "timeTransactions": [
+    {
+      "caseId": "OT-0001",
+      "elapsedSeconds": 4,
+      "status": "Finalizado",
+      "mobileId": "lucasPhone",
+      "transId": "IDS0001",
+      "reasonId": "ALMUERZO"
+    },
+	{
+      "caseId": "OT-0002",
+      "elapsedSeconds": 6,
+      "status": "Finalizado",
+      "mobileId": "dev1",
+      "transId": "IDS0002",
+      "reasonId": "ALMUERZO"
+    },
+	{
+      "caseId": "OT-0001",
+      "elapsedSeconds": 0,
+      "status": "Corriendo",
+      "mobileId": "lucasdevTest",
+      "transId": "IDS0003",
+      "reasonId": ""
+    }
+]
+}

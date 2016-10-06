@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<p>{{test}}</p>
+			<h1>{{currentCaseId}}</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container-xs-padding">
+	<div class="row">
+		<div class="col-xs-12" ng-if="!showTransactions">
+			<h3>{{transactionsMsg}}</h3>
+		</div>
+		<div class="col-xs-12" ng-if="showTransactions">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Transacción</th>
+						<th>Estado</th>
+						<th>Dispositivo</th>
+						<th>Tiempo</th>
+						<th>Razón</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="transaction in timeTransactions">
+						<td><p ng-model="transaction.transId"></p></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+
+
